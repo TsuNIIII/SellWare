@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".View2">
+
+    <View
+        android:id="@+id/containerNav"
+        style="@style/ContainerNav"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="294dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="307dp"
+        android:text="@string/rafaelP"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@id/icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ether"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:text="x.xx MONERO"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user" />
+
+    <TextView
+        android:id="@+id/introducao"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:text="Desenvolva, Venda e Compre Malwares"
+        android:textAlignment="center"
+        android:textColor="#34EA0B"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo2" />
+    <TextView
+        android:id="@+id/founders"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="admins/devs"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/introducao" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_diogo"
+        style="@style/Button"
+        android:text="leonardo (kwisat5)"
+        android:textColor="@color/black"
+        android:layout_height="36dp"
+        android:width="325dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/founders" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_rafael"
+        style="@style/Button"
+        android:text="mancilha (kernØl)"
+        android:textColor="@color/black"
+        android:layout_height="36dp"
+        android:width="325dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/founders" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_brnn"
+        style="@style/Button"
+        android:text="vinicius (0x0666)"
+        android:textColor="@color/black"
+        android:layout_height="36dp"
+        android:width="325dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/founders" />
+
+    <TextView
+        android:id="@+id/market"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="MARKET"
+        android:textAlignment="center"
+        android:textColor="#34EA0B"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo2" />
+    <ImageView
+        android:id="@+id/setas"
+        android:src="@drawable/setas"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/market" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

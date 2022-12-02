@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">@drawable/container_components</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="container_images">
+        <item name="android:layout_height">700dp</item>
+        <item name="android:background">@drawable/container_images</item>
+         <!--
+        <item name="android:layout_marginLeft">18px</item>
+        <item name="android:layout_marginTop">27px</item> -->
+
+    </style>
+
+    <style name="Edit_Text">
+        <item name="android:hint">@string/entrar</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <!-- Inputs config -->
+        <item name="android:maxLength">25</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">99dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/buttom</item>
+
+        <item name="android:layout_marginLeft">80.5dp</item>
+        <item name="android:layout_marginRight">80.5dp</item>
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- VIEW 2 -->
+    <style name="ContainerNav">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">66dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="ContainerNav2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">66dp</item>
+        <item name="layout_constraintTop_toBottomOf">@id/dev</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <string name="required">Required</string>
+</resources>

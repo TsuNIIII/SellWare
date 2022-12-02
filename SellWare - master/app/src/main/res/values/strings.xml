@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NFTsUnicap</string>
+    <string name="login">Login</string>
+    <string name="entrar">Digite o seu Email</string>
+    <string name="title_activity_sobre_bruno">SobreBruno</string>
+    <string name="action_settings">Settings</string>
+    <string name="introducao">Descubra artes digitais e colecione NFTs</string>
+    <string name="rafaelP">Rafael Pereira</string>
+    <string name="ether">x.xx eth</string>
+    <string name="fundadores">Founders</string>
+    <string name="diogo">Diogo</string>
+    <string name="rafael">Rafael</string>
+    <string name="bruno">Bruno</string>
+    <string name="market">MARKETPLACE</string>
+    <string name="prazer">Prazer, Meu Nome é:</string>
+    <string name="dioguinho">Diogo Ávila</string>
+    <string name="dev">Eu sou um Desenvolvedor</string>
+    <string name="sobre">Sobre Mim</string>
+    <string name="historia">Meu nome é Diogo, moro no cabo de santo agostinho e comecei a programar aos 17 anos quando entrei na faculdade de ciencia da computação. comecei apredendo Java e com o tempo peguei gosto e comecei a buscar mais sobre Python, Recentemente tenho buscado me aperfeiçoar meus conhecimentos em Kotlin.</string>
+    <string name="pouco">Um pouco da minha historia:</string>
+    <string name="curiosidades">Curiosidades sobre mim é que eu não nasci no Brasil,
+e sim em Lisboa, Portugal. Obviamente não sou de Recife porém minha familia não
+é portuguesa, no geral a maioria mora em São Paulo.</string>
+</resources>

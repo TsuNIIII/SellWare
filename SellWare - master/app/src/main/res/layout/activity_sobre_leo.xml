@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreLeo"
+    android:background="@color/black">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/prazer"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:text="Pode me chamar de"
+                android:textColor="@color/frog"
+                android:textSize="26sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/nome"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:text="kwisat5"
+                android:textColor="@color/frog"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/prazer"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="@id/prazer"
+                app:layout_constraintTop_toBottomOf="@id/prazer"/>
+            <TextView
+                android:id="@+id/dev"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:text="DEV / TI"
+                android:textColor="@color/frog"
+                android:textSize="26sp"
+                app:layout_constraintEnd_toEndOf="@id/prazer"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="@id/prazer"
+                app:layout_constraintTop_toBottomOf="@id/nome"/>
+
+            <View
+                android:id="@+id/containerNav2"
+                style="@style/ContainerNav2"
+                tools:ignore="MissingConstraints"
+                android:layout_height="1000dp"
+                android:background="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sobre"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="-950dp"
+                app:layout_constraintTop_toBottomOf="@id/dev"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/icon"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/leo"
+                android:paddingTop="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Um pouco sobre mim"
+                android:textColor="@color/white"
+                android:paddingTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/dev"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> LEONARDO FIGUEIREDO RIBEIRO\n
+-> ESTUDANTE DE CIENCIAS DA COMPUTAÇÃO NA UNIVERSIDADE CATOLICA DE PERNAMBUCO\n
+-> TRABALHO COMO SUPORTE DE TI NA EMPRESA DE GESTÃO E CONSULTORIA DATACONTE, TENHO COMO MEUS HOBBIES JOGAR MAGIC THE GATHERING, VIAJAR COM AMIGOS E FAMILIA E COZINHAR.\n
+-> DESEJA ENTRAR EM CONTATO?\n\n
+ribeiro9360@gmail.com\n
+https://www.linkedin.com/in/leonardo-ribeiro-44b0b3243/"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/dev"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
